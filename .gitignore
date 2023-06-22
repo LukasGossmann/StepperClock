@@ -1,0 +1,7 @@
+build/
+.vscode/
+StepperClock-backups/
+*.FCStd1
+*.gcode
+*.stl
+*.sl1

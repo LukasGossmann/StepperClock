@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="297mm"
+   height="420mm"
+   viewBox="0 0 297 420"
+   id="svg113"
+   sodipodi:docname="A3_Portrait_ISO7200TD.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace">
+  <defs
+     id="defs117" />
+  <sodipodi:namedview
+     id="namedview115"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0645786"
+     inkscape:cx="507.71263"
+     inkscape:cy="-44.618594"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g50" />
+  <!-- Working space 20 10 410 287 -->
+  <!-- Title block 230 227 410 287 -->
+  <g
+     id="g50">
+    <rect
+       id="drawing-border"
+       style="fill:none;stroke:#000000;stroke-width:0.35;stroke-miterlimit:4"
+       width="277"
+       height="390"
+       x="10"
+       y="20" />
+    <!-- width-30, height-20 -->
+    <g
+       transform="translate(87,123)"
+       id="g48">
+      <!-- A4 Portrait based for other formats width-210, height-297 -->
+      <!--        page       rect   translation
+                     w    h    rw   rh   tx   ty
+              A4-P  210  297  180  277    0    0
+              A3-L  420  297  390  277  210    0
+              A2-L  594  420  564  400  384  123
+              A1-L  841  594  811  574  631  297
+              A0-L 1189  841 1159  821  979  544
+      -->
+      <g
+         id="titleblock-structure"
+         style="fill:none;stroke:#000000;stroke-width:0.35;stroke-miterlimit:4">
+        <rect
+           width="180"
+           height="60"
+           x="20"
+           y="227"
+           id="rect3" />
+        <path
+           d="M 20,239 H 200"
+           id="path5" />
+        <path
+           d="m 80,227 v 12"
+           id="path7" />
+        <path
+           d="m 140,239 v 48"
+           id="path9" />
+        <path
+           d="m 160,239 v 12"
+           id="path11" />
+        <path
+           d="m 180,239 v 12"
+           id="path13" />
+        <path
+           d="m 140,251 h 60"
+           id="path15" />
+        <path
+           d="m 140,275 h 60"
+           id="path17" />
+        <path
+           d="m 180,275 v 12"
+           id="path19" />
+      </g>
+      <g
+         id="titleblock-text-non-editable"
+         style="font-size:3px;font-family:osifont;text-anchor:start;fill:#000000">
+        <text
+           x="21"
+           y="230"
+           id="text22">Created by:</text>
+        <text
+           x="81"
+           y="230"
+           id="text24">Title:</text>
+        <text
+           x="21"
+           y="242"
+           id="text26">Supplementary information:</text>
+        <text
+           x="141"
+           y="242"
+           id="text28">Size:</text>
+        <text
+           x="161"
+           y="242"
+           id="text30">Sheet:</text>
+        <text
+           x="181"
+           y="242"
+           id="text32">Scale:</text>
+        <text
+           x="141"
+           y="254"
+           id="text34">Part number:</text>
+        <text
+           x="141"
+           y="266"
+           id="text36">Drawing number:</text>
+        <text
+           x="141"
+           y="278"
+           id="text38">Date:</text>
+        <text
+           x="181"
+           y="278"
+           id="text40">Revision:</text>
+      </g>
+      <!-- Set display:none to hide FreeCAD Logo -->
+      <g
+         style="display:inline"
+         id="freecad-logo"
+         transform="translate(128.5,276)"
+         fill-rule="evenodd"
+         stroke="#000000"
+         stroke-width="0.35"
+         fill="none">
+        <path
+           d="m 0.1524,0.15254 v 8.8549 h 1.9744 v -3.4652 h 1.396 v -1.3661 h -1.396 v -1.4745 h 3.4391 v -2.5441 z"
+           id="path43" />
+        <path
+           d="M 7.7927,3.4504 7.28555,3.2744 6.80168,2.0378 6.04053,2.0778 5.69335,3.3565 5.20745,3.58919 3.99555,3.05904 3.48367,3.62786 4.14259,4.77636 3.96253,5.28203 2.72593,5.7659 l 0.044064,0.76263 1.2787,0.34718 0.23269,0.4859 -0.53421,1.2104 0.56882,0.51188 1.1485,-0.65891 0.50973,0.18155 0.4798,1.2351 0.7667,-0.04258 0.34311,-1.2802 0.4859,-0.23269 1.2145,0.5357 0.51188,-0.56882 -0.65891,-1.1485 0.17748,-0.51122 1.2351,-0.4798 L 10.491274,5.34831 9.211074,5.0052 8.978384,4.5193 9.510014,3.3033 8.941204,2.79146 Z M 7.2212,4.6748 7.45696,4.81159 7.66122,4.99678 7.82475,5.21779 7.94238,5.46351 8.01154,5.7284 8.023,5.99986 7.98379,6.27125 7.89431,6.52889 7.75197,6.76723 7.57233,6.9689 7.35132,7.13243 7.1056,7.25006 6.84071,7.31922 6.56776,7.33475 l -0.2719,-0.04 -0.2576,-0.089 -0.2383,-0.143 -0.2002,-0.183 -0.165,-0.217 -0.1177,-0.246 -0.0676,-0.269 -0.0156,-0.273 L 5.273066,5.60335 5.36255,5.34571 5.5034,5.11144 5.68453,4.9057 5.90554,4.74218 6.15126,4.62455 6.42021,4.55687 6.69168,4.54541 6.96307,4.58462 7.22071,4.6741 Z"
+           id="path45" />
+      </g>
+    </g>
+  </g>
+  <!-- freecad:editable fields must use absolute coords. No transform clause allowed. -->
+  <g
+     id="titleblock-text-editable"
+     style="font-size:5px;font-family:osifont;text-anchor:start;fill:#000000">
+    <text
+       freecad:editable="AUTHOR_NAME"
+       x="108"
+       y="359"
+       id="text54"><tspan
+         id="tspan52">AUTHOR NAME</tspan></text>
+    <text
+       freecad:editable="DRAWING_TITLE"
+       x="168"
+       y="359"
+       id="text58"><tspan
+         id="tspan56">DRAWING TITLE</tspan></text>
+    <text
+       freecad:editable="SI-1"
+       x="108"
+       y="371"
+       id="text62"><tspan
+         id="tspan60" /></text>
+    <text
+       freecad:editable="SI-2"
+       x="108"
+       y="378"
+       id="text66"><tspan
+         id="tspan64" /></text>
+    <text
+       freecad:editable="FreeCAD_DRAWING"
+       x="108"
+       y="385"
+       id="text70"><tspan
+         id="tspan68">FreeCAD DRAWING</tspan></text>
+    <text
+       freecad:editable="SI-4"
+       x="108"
+       y="392"
+       id="text74"><tspan
+         id="tspan72" /></text>
+    <text
+       freecad:editable="SI-5"
+       x="108"
+       y="399"
+       id="text78"><tspan
+         id="tspan76" /></text>
+    <text
+       freecad:editable="SI-6"
+       x="108"
+       y="406"
+       id="text82"><tspan
+         id="tspan80" /></text>
+    <text
+       freecad:editable="FC-SI"
+       x="228"
+       y="371"
+       id="text86"><tspan
+         id="tspan84">A3</tspan></text>
+    <text
+       freecad:editable="FC-SH"
+       x="248"
+       y="371"
+       id="text90"><tspan
+         id="tspan88">X / Y</tspan></text>
+    <text
+       freecad:editable="FC-SC"
+       x="268"
+       y="371"
+       id="text94"><tspan
+         id="tspan92">SCALE</tspan></text>
+    <text
+       freecad:editable="PN"
+       x="228"
+       y="383"
+       id="text98"><tspan
+         id="tspan96">PN</tspan></text>
+    <text
+       freecad:editable="DN"
+       x="228"
+       y="395"
+       id="text102"><tspan
+         id="tspan100">DN</tspan></text>
+    <text
+       freecad:editable="FC-DATE"
+       x="228"
+       y="407"
+       id="text106"><tspan
+         id="tspan104">DD/MM/YYYY</tspan></text>
+    <text
+       freecad:editable="FC-REV"
+       x="268"
+       y="407"
+       id="text110"><tspan
+         id="tspan108">REV A</tspan></text>
+  </g>
+  <!-- DrawingContent -->
+</svg>

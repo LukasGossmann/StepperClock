@@ -1,0 +1,6 @@
+[submodule "KiCAD/KiCad-RP-Pico"]
+	path = KiCAD/KiCad-RP-Pico
+	url = https://github.com/ncarandini/KiCad-RP-Pico
+[submodule "RP2040/TMC-API"]
+	path = RP2040/TMC-API
+	url = https://github.com/trinamic/TMC-API
