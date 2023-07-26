@@ -1,14 +1,17 @@
 
-<img alt="Front view of the clock" src="Pictures/Finisched Clock on Wall closed.jpg" width="25%">
-<img alt="Front view of the clock" src="Pictures/Finished Clock on Wall opened.jpg" width="25%">
+<img alt="Front view of the clock with the door closed" src="Pictures/Finisched Clock on Wall closed.jpg" width="25%">
+<img alt="Front view of the clock with the door opened" src="Pictures/Finished Clock on Wall opened.jpg" width="25%">
 
 ---
 
 # The clockwork
 The clock hands are moved by 2 Nema8 double shaft stepper motors (one hollow shaft and one normal one).  
-To allow the clock to move its hands smoothly and nearly completely silently the stepper motors are driven using 2 Trinamic TMC2209 SilentStepStick modules configured for 256 microstepping. `200 full steps * 256 micro steps = 51200 steps per rev`  
+To allow the clock to move its hands smoothly and nearly completely silently the stepper motors are driven using 2 Trinamic TMC2209 SilentStepStick modules configured for 256x microstepping. `200 full steps * 256 micro steps = 51200 steps per rev`  
 The structural parts of the clockwork are CNC cut from 3mm Resopal and slotted together.  
 Unfortunately i mostly forgot to take pictures of the build process and the finished clockwork before installing it so only the CAD drawing shows how everything fits together.
+
+<img alt="Clockwork from the front with with front plate removed" src="Pictures/Clockwork/FrontView_open.png" width="50%">
+<img alt="Clockwork from the back with with back plate removed" src="Pictures/Clockwork/BackView_open.png" width="50%">
 
 # The pendulum
 Its driven by a small electromagnet at the frequency that the pendulum would naturally swing at. `Pendulum length = 350mm, Frequency = 0.8425Hz`  
@@ -17,16 +20,22 @@ For additional rigidity the pendulum shaft goes through the ring and is soldered
 Inside of the ring are 2 circular slices of purple heart wood with slots for the shaft to pass through.  
 They are just press fit in place and can be removed with a suction cup in case the brass needs to be re-polished.  
 
+<img alt="The completed and polished pendulum" src="Pictures/Pendulum Done.jpg" width="50%">
+
+
 # The bell mechanism
-Originally the design of the clock included a 5 tone bell mechanism that used solenoids that hit against brass rods.  
+Originally the design of the clock included a 5 tone bell mechanism that used solenoids which hit against brass rods.  
 This part of the design was later abandoned due to the bells not sounding that good.  
 The new design of the clockwork no longer includes the bells.  
-There is a few pictures of the old assembly in the pictures folder though.
+There is a few pictures of the old assembly in the pictures folder.
 
 # The dial plate
 Its made from Corian that has been engraved with a 1mm carbide endmill.  
 The engraving was then filled with black epoxy and a brass ring.  
 After that everything was sanded flush and polished.  
+
+<img alt="The engraved dial plate without epoxy and the brass ring" src="Pictures/Dial Plate Engraved.jpg" width="50%">
+
 
 # The electronics
 The brain of this clock is a Raspberry Pi Pico.  
@@ -47,17 +56,24 @@ When powering back up the clock hands home again and drive to the current time.
 There is unfortunately not very many pictures of the PCB itself because i again forgot to take pictures.  
 I managed to find it in the background of some pictures of other projects though so i cropped out the unimportant bits (which is also why the quality of those pictures isn't great...)
 
+<img alt="Older revision of the PCB" src="Pictures/PCB.jpg" width="50%">
+
+# The lock
+The lock is custom designed for this clock. It can be used for all types of full overlay doors when the door is at least 12mm or so thick (the lock is just 9mm thick).  
+Once installed the lock and latch plate don't take up any space inside whatever enclosure they are used in.  
+The latch of the lock is moved using an eccentric cam whose center of rotation is the key shaft.  
+A small plastic spring is used to give some audible and haptic feedback on when the key has been rotated far enough.  
+
+<img alt="Front view of the lock with the cover removed" src="Pictures/DoorLock/FrontView_open.png" width="50%">
+
+
 # The case
-It was actually build as my journeyman's piece for the apprenticeship as a carpenter I'll be completing in August of this year (2023).  
+It was actually build as my journeyman's piece for the apprenticeship as a carpenter I completed in August of 2023.  
 The case consists of 2 big half circles that were made by gluing ten 2mm pieces of veneer together while clamped to a mold.  
 After the glue dries the pieces keep the shape and are actually surprisingly stiff.  
 All the relevant documents that have to be submitted (Drawings, Concept, etc.) to get the project approved are also available in this repository for anyone interested.  
 That is also why the repository contains a mix of German and English.  
 To document the build process and show how certain things were made (in case anyone wants to replicate the project) I took a lot of pictures while building it.  
-The clock will be / is / was on display at the Forum Alstertal in Hamburg, Germany at the yearly exhibition of carpentry journeyman's pieces:  
+The clock was on display at the Forum Alstertal in Hamburg, Germany at the yearly exhibition of carpentry journeyman's pieces:  
 `30th of June to the 05th July 2023`  
 [Link to the event](https://www.forum-alstertal.de/news_veranstaltungen_detail_394.html)
-
-# The lock
-
-TODO
